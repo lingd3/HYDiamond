@@ -1,0 +1,16 @@
+<view class='contact'>
+  <view class='title'><image src="/images/contact.png" /></view>
+  <view class='contacts'>
+    <view class='detail'>
+      <view class='img'><image src="/images/phone.png" /></view>
+      <view class='value'>13531936398</view>
+      <button class='btn' bindtap='call'>点击拨打</button>
+    </view>
+    <view class='detail'>
+      <view class='img'><image src="/images/wechat.png" /></view>
+      <view class='value'>aaaa6666888888</view>
+      <button class='btn' bindtap='copy'>点击复制</button>
+    </view>
+  </view>
+  
+</view>

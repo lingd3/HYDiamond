@@ -1,0 +1,80 @@
+<scroll-view scroll-y>
+
+  <view class='top'>
+    <view class='top-shape' wx:for='{{shapes}}'>
+      <image data-index="{{index}}" src='{{item.image}}' bindtap='changeImage'/>
+      <view class='shape-name'>{{item.shapeName}}</view>
+    </view>
+  </view>
+
+  <view class='condition'>
+    <view class='condition-name'>颜色</view>
+    <view class='condition-values'>
+    <view data-index="{{index}}" class="condition-value {{item.select?'selected':''}}" wx:for='{{colors}}' bindtap='changeColor'>{{item.color}}</view>
+    </view>
+  </view>
+
+  <view class='condition'>
+    <view class='condition-name'>净度</view>
+    <view class='condition-values'>
+      <view data-index="{{index}}" class="condition-value {{item.select?'selected':''}}" wx:for='{{clarities}}' bindtap='changeClarity'>{{item.clarity}}</view>
+    </view>
+  </view>
+
+  <view class='condition'>
+    <view class='condition-name-1line'>切工</view>
+    <view class='condition-values'>
+      <view data-index="{{index}}" class="condition-value-1line {{item.select?'selected':''}}" wx:for='{{cuts}}' bindtap='changeCut'>{{item.cut}}</view>
+    </view>
+  </view>
+
+  <view class='condition'>
+    <view class='condition-name-1line'>抛光</view>
+    <view class='condition-values'>
+      <view data-index="{{index}}" class="condition-value-1line {{item.select?'selected':''}}" wx:for='{{polishs}}' bindtap='changePolish'>{{item.polish}}</view>
+    </view>
+  </view>
+
+  <view class='condition'>
+    <view class='condition-name-1line'>对称</view>
+    <view class='condition-values'>
+      <view data-index="{{index}}" class="condition-value-1line {{item.select?'selected':''}}" wx:for='{{symmetries}}' bindtap='changeSymmetry'>{{item.symmetry}}</view>
+    </view>
+  </view>
+
+  <view class='condition'>
+    <view class='condition-name-1line'>荧光</view>
+    <view class='condition-values'>
+      <view data-index="{{index}}" class="condition-value-1line {{item.select?'selected':''}}" wx:for='{{fluorescences}}' bindtap='changeFluorescence'>{{item.fluorescence}}</view>
+    </view>
+  </view>
+
+  <view class='condition'>
+    <view class='condition-name-1line'>重量</view>
+    <view class='condition-values'>
+      <input type="digit" bindinput='carat1Input' value ='{{carat1}}'/>
+      <text>-</text>
+      <input type="digit" bindinput='carat2Input' value='{{carat2}}'/>
+      <text>克拉</text>
+      <button class='btn-carat' bindtap='chooseCarat'>选择</button>
+    </view>
+  </view>
+
+  <view class='condition bottom'>
+    <view class='condition-name-1line'>价格</view>
+    <view class='condition-values price'>
+      <input type="digit" bindinput='price1Input' value='{{price1}}'/>
+      <text>-</text>
+      <input type="digit" bindinput='price2Input' value='{{price2}}'/>
+      <text>元</text>
+      <button class='btn-carat' bindtap='choosePrice'>选择</button>
+    </view>
+  </view>
+
+  <view class='footer'>
+    <button class='btn-contact' bindtap="contact">联系客服</button>
+    <button class='btn-reset' bindtap="reset">重置</button>
+    <button class='btn-search' bindtap="search">搜索</button>
+  </view>
+
+</scroll-view>

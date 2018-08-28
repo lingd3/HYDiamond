@@ -1,0 +1,46 @@
+page {
+  background-color: rgba(204, 204, 204, 0.65);
+}
+.title {
+  height: 200rpx;
+}
+.title image {
+  width: 30%;
+  height: 50%;
+  margin-top: 100rpx;
+  margin-left: 35%;
+}
+.contacts {
+  margin-top: 80rpx;
+}
+.detail {
+  width: 96%;
+  height: 100rpx;
+  margin-left: 2%;
+  margin-bottom: 2%;
+}
+.img {
+  width: 10%;
+  height: 100rpx;
+  float: left;
+  margin-left: 5%;
+}
+.img image {
+  width: 100%;
+  height: 80%;
+  margin-top: 10%;
+}
+.value {
+  float: left;
+  width: 52%;
+  height: 100rpx;
+  font-size: 120%;
+  line-height: 100rpx;
+  margin-left: 5%;
+}
+.btn {
+  font-size: 60%;
+  float: left;
+  width: 25%;
+  margin-top: 3%;
+}

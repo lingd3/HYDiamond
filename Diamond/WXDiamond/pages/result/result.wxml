@@ -1,0 +1,32 @@
+  <scroll-view scroll-y>
+
+    <view class="data">
+      <view class='titles'>
+        <view class="title shape">形状</view>
+        <view class="title">重量</view>
+        <view class="title">颜色</view>
+        <view class="title">净度</view>
+        <view class="title">切工</view>
+        <view class="title price">价格</view>
+        <view class="title-detail">详情</view>
+      </view>
+      <view class='diamonds' wx:for='{{diamonds}}'>
+        <view data-index='{{index}}' class="{{index%2==0?'':'diamond1'}}">
+          <view class='diamond shape'>{{item.shape}}</view>
+          <view class='diamond'>{{item.carat}}</view>
+          <view class='diamond'>{{item.color}}</view>
+          <view class='diamond'>{{item.clarity}}</view>
+          <view class='diamond'>{{item.cut}}</view>
+          <view class='diamond price'>{{item.rmb}}</view>
+          <view class='diamond-detail' bindtap='toDetail' data-index='{{index}}'>···</view>
+        </view>
+      </view>
+    </view>
+    
+    <view class='footer'>
+      <button class='btn-contact' bindtap="contact">联系客服</button>
+      <button class='btn-reset' bindtap="toReturn">返回</button>
+      <button class='btn-search' bindtap="search">搜索</button>
+    </view>
+
+</scroll-view>

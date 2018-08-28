@@ -1,0 +1,73 @@
+<view>
+  <view class='title'>钻石详情</view>
+  <view class='detail'>
+    <view class='item'>
+      <view class='name'>货号：</view>
+      <view class='value'>{{diamond.id}}</view>
+    </view>
+    <view class='item'>
+      <view class='name'>地点：</view>
+      <view class='value'>{{diamond.place}}</view>
+    </view>
+    <view class='item'>
+      <view class='name'>状态：</view>
+      <view class='value'>{{diamond.status}}</view>
+    </view>
+    <view class='item'>
+      <view class='name'>货期：</view>
+      <view class='value'>{{diamond.deliveryTime}}</view>
+    </view>
+    <view class='item'>
+      <view class='name'>形状：</view>
+      <view class='value'>{{diamond.shape}}</view>
+    </view>
+    <view class='item'>
+      <view class='name'>重量：</view>
+      <view class='value'>{{diamond.carat}}</view>
+    </view>
+    <view class='item'>
+      <view class='name'>颜色：</view>
+      <view class='value'>{{diamond.color}}</view>
+    </view>
+    <view class='item'>
+      <view class='name'>净度：</view>
+      <view class='value'>{{diamond.clarity}}</view>
+    </view>
+    <view class='item'>
+      <view class='name'>切工：</view>
+      <view class='value'>{{diamond.cut}}</view>
+    </view>
+    <view class='item'>
+      <view class='name'>抛光：</view>
+      <view class='value'>{{diamond.polish}}</view>
+    </view>
+    <view class='item'>
+      <view class='name'>对称：</view>
+      <view class='value'>{{diamond.symmetry}}</view>
+    </view>
+    <view class='item'>
+      <view class='name'>荧光：</view>
+      <view class='value'>{{diamond.fluorescence}}</view>
+    </view>
+    <view class='item'>
+      <view class='name'>直径：</view>
+      <view class='value'>{{diamond.diameter}}</view>
+    </view>
+    <view class='item'>
+      <view class='name'>咖色：</view>
+      <view class='value'>{{diamond.brown}}</view>
+    </view>
+    <view class='item'>
+      <view class='name'>折扣：</view>
+      <view class='value discount'>{{diamond.discount}}</view>
+    </view>
+    <view class='item'>
+      <view class='name'>奶色：</view>
+      <view class='value'>{{diamond.milk}}</view>
+    </view>
+    <view class='item-price'>
+      <view class='name-price'>价格：</view>
+      <view class='value-price'>{{diamond.rmb}} RMB/粒</view>
+    </view>
+  </view>
+</view>

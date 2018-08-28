@@ -1,0 +1,15 @@
+<view class='contact'>
+  <view class='title'>联系方式</view>
+  <view class='detail'>
+    <view class='value'>姓名：杨榕滨</view>
+  </view>
+  <view class='detail'>
+    <view class='value'>微信：Ry_Jewellry</view>
+    <button class='btn' bindtap='copy'>点击复制</button>
+  </view>
+  <view class='detail'>
+    <view class='value'>手机：13413908995</view>
+    <button class='btn' bindtap='call'>点击拨打</button>
+  </view>
+
+</view>

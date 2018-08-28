@@ -1,0 +1,52 @@
+page {
+  background-color:rgba(204, 204, 204, 0.65);
+}
+.top {
+  
+}
+.title {
+  height: 120rpx;
+  line-height: 120rpx;
+  font-size: 130%;
+  text-align: center;
+  color: red;
+  /* background-color: #ccc; */
+}
+.detail {
+
+}
+.item {
+  float: left;
+  width: 45%;
+  height: 60rpx;
+  margin-top: 30rpx;
+  margin-left: 5%;
+}
+.name {
+  float: left;
+  width: 40%;
+}
+.value {
+  float: left;
+  width: 60%;
+  color: blue;
+}
+.item-price {
+  float: left;
+  width: 95%;
+  height: 60rpx;
+  margin-top: 30rpx;
+  margin-left: 5%; 
+}
+.name-price {
+  float: left;
+  width: 19%;
+}
+.value-price {
+  float: left;
+  width: 81%;
+  color: red;
+}
+.discount {
+  color: red;
+}

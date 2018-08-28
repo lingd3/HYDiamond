@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>砖石王</title>
+	<link rel="icon" href="../static/static/image/diamond.png" type="image/x-icon"/>
+	<link rel="stylesheet" type="text/css" href="../static/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="../static/css/style.css">
+	<script src="../static/js/jquery-3.2.1.min.js"></script>
+	<script src="../static/js/bootstrap.min.js"></script>
+	<script src="../static/js/script.js"></script>
+</head>
+<body>
+	<div id="all">
+		<div id="top">
+			✨Welcome✨
+			<span id="top2">电话：188xxxxxxxx<br>微信：xxxxxxxx</span>
+		</div>
+
+		<div id="center">
+			<p class="num">裸钻搜索</p>
+			<form>
+				<div id="left">
+					<div>
+						颜色：
+						<input type="checkbox" name="color" value="D"> D&nbsp;
+						<input type="checkbox" name="color" value="E"> E&nbsp;
+						<input type="checkbox" name="color" value="F"> F&nbsp;
+						<input type="checkbox" name="color" value="G"> G&nbsp;
+						<input type="checkbox" name="color" value="H"> H&nbsp;
+						<input type="checkbox" name="color" value="I"> I&nbsp;
+						<input type="checkbox" name="color" value="J"> J&nbsp;
+						<input type="checkbox" name="color" value="K"> K&nbsp;
+						<input type="checkbox" name="color" value="L"> L&nbsp;
+						<input type="checkbox" name="color" value="M"> M
+					</div>
+
+					<div>
+						净度：
+						<input type="checkbox" name="clarity" value="FL"> FL&nbsp;
+						<input type="checkbox" name="clarity" value="IF"> IF&nbsp;
+						<input type="checkbox" name="clarity" value="WS1"> WS1&nbsp;
+						<input type="checkbox" name="clarity" value="WS2"> WS2&nbsp;
+						<input type="checkbox" name="clarity" value="VS1"> VS1&nbsp;
+						<input type="checkbox" name="clarity" value="VS2"> VS2&nbsp;
+						<input type="checkbox" name="clarity" value="SI1"> SI1&nbsp;
+						<input type="checkbox" name="clarity" value="SI2"> SI2&nbsp;
+						<input type="checkbox" name="clarity" value="I1"> I1
+					</div>
+
+					<div>
+						切工：
+						<input type="checkbox" name="cut" value="EX"> EX完美&nbsp;
+						<input type="checkbox" name="cut" value="VG"> VG很好&nbsp;
+						<input type="checkbox" name="cut" value="GD"> GD好
+					</div>
+
+					<div>
+						抛光：
+						<input type="checkbox" name="polish" value="EX"> EX完美&nbsp;
+						<input type="checkbox" name="polish" value="VG"> VG很好&nbsp;
+						<input type="checkbox" name="polish" value="GD"> GD好
+					</div>
+
+					<div>
+						对称：
+						<input type="checkbox" name="symmetry" value="EX"> EX完美&nbsp;
+						<input type="checkbox" name="symmetry" value="VG"> VG很好&nbsp;
+						<input type="checkbox" name="symmetry" value="GD"> GD好
+					</div>
+
+					<div>
+						荧光：
+						<input type="checkbox" name="fluorescence" value="N"> N无&nbsp;
+						<input type="checkbox" name="fluorescence" value="VSL"> VSL轻&nbsp;
+						<input type="checkbox" name="fluorescence" value="F"> F轻&nbsp;
+						<input type="checkbox" name="fluorescence" value="M"> M中&nbsp;
+						<input type="checkbox" name="fluorescence" value="S"> S强
+					</div>
+				</div>
+				<div id="right">
+					<div>
+						咖 奶：
+						<input type="checkbox" name="brown" value="不咖"> 不咖不奶&nbsp;
+						<input type="checkbox" name="brown" value="浅咖"> 浅咖不奶
+					</div>
+
+					<div>
+						重 量：<input type="text" id="carat1" maxlength="5"> - 
+						<input type="text" id="carat2" maxlength="5">	
+					</div>
+					<div>
+						货 号：<input type="text" id="id" maxlength="10">	
+					</div> 
+					<div>
+						每 页：
+						<select id="limit">
+							<option>10</option>
+							<option>25</option>
+							<option>50</option>
+						</select>
+						条
+					</div> 
+					<div>
+						<input type="button" id="query" value="搜索">
+						<input type="button" id="reset" value="重置">
+					</div>
+				</div>
+			</form>
+		</div>
+		<div id="mainContent"></div>
+		<div id="callBackPager"></div>
+	</div>
+</body>
+</html>

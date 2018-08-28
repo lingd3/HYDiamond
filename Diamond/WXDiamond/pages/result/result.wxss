@@ -1,0 +1,75 @@
+.data {
+  margin-bottom: 42px;
+}
+.titles {
+  /* background-color: red;
+  overflow: hidden; */
+}
+.title {
+  float: left;
+  width: 13%;
+  height: 80rpx;
+  line-height: 80rpx;
+  color: white;
+  text-align: center;
+  background-color: red;
+}
+.title-detail {
+  float: left;
+  width: 10%;
+  height: 80rpx;
+  line-height: 80rpx;
+  color: white;
+  text-align: center;
+  background-color: red;
+}
+.diamonds {
+  overflow: hidden;
+}
+.diamond {
+  float: left;
+  width: 13%;
+  height: 80rpx;
+  line-height: 80rpx;
+  text-align: center;
+}
+.diamond-detail {
+  float: left;
+  width: 10%;
+  height: 80rpx;
+  line-height: 80rpx;
+  text-align: center;
+}
+.diamond1 {
+  background-color: #ccc;
+  overflow: auto;
+}
+.price {
+  width: 23%;
+}
+.shape {
+  width: 15%;
+}
+
+/* 底部 */
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+.footer button {
+  width: 33.3333%;
+  float: left;
+  color: white;
+  border-radius: 0;
+  border: none;
+}
+.btn-contact {
+  background: gray;
+}
+.btn-reset {
+  background: orange;
+}
+.btn-search {
+  background: red;
+}

@@ -1,0 +1,129 @@
+page {
+  background: white;
+}
+.top {
+  overflow: hidden;
+}
+.top-shape {
+  float: left;
+  width: 20%;
+  height: 140rpx;
+}
+.top-shape image {
+  margin-left: 15%;
+  width: 70%;
+  height: 70%;
+}
+.shape-name {
+  width: 100%;
+  text-align: center;
+  font-size: 30rpx;
+  margin-top: -15rpx;
+}
+
+/* 选择条件 */
+.condition {
+  overflow: hidden;
+  margin-top: 10rpx;
+  margin-bottom:-5rpx;
+  border-top: 1rpx solid black;
+}
+.condition-name {
+  float: left;
+  text-align: center;
+  line-height: 160rpx;
+  width: 20%;
+  height: 150rpx;
+}
+.condition-values {
+  padding-top: 10rpx;
+  float: left;
+  width: 80%;
+}
+.condition-value {
+  background-color: rgba(204, 204, 204, 0.65);
+  text-align: center;
+  line-height: 60rpx;
+  float: left;
+  width: 17%;
+  height: 60rpx;
+  border: 1rpx solid black;
+  margin-left: 2%;
+  margin-top: 0.5%;
+}
+.bottom {
+  margin-bottom: 46px;
+}
+/* one line */
+.condition-name-1line {
+  float: left;
+  text-align: center;
+  line-height: 110rpx;
+  width: 20%;
+  height: 100rpx;
+}
+.condition-value-1line {
+  background-color: rgba(204, 204, 204, 0.65);
+  text-align: center;
+  line-height: 60rpx;
+  float: left;
+  width: 17%;
+  height: 60rpx;
+  border: 1rpx solid black;
+  margin-left: 2%;
+  margin-top: 2%;
+}
+.btn-carat {
+  width: 15%;
+  height: 70rpx;
+  line-height: 70rpx;
+  font-size: 80%;
+  box-sizing: content-box;
+  margin-top: 8rpx;
+  background: rgba(204, 204, 204, 0.65);
+}
+
+/* 底部 */
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+.footer button {
+  width: 33.3333%;
+  float: left;
+  color: white;
+  border-radius: 0;
+  border: none;
+}
+.btn-contact {
+  background: gray;
+}
+.btn-reset {
+  background: orange;
+}
+.btn-search {
+  background: red;
+}
+/* 文本框 */
+.condition-values input {
+  float: left;
+  width: 15%;
+  border: 1rpx solid black;
+  line-height: 60rpx;
+  height: 60rpx;
+  margin-left: 2%;
+  margin-top: 2%;
+}
+.price input {
+  width: 20%;
+}
+.condition-values text {
+  float: left;
+  margin-left: 2%;
+  margin-top: 3%;
+}
+.selected {
+  background-color: red;
+  color: white;
+}
